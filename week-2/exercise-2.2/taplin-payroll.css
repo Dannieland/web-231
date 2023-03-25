@@ -1,0 +1,65 @@
+/*Start of payroll css*/
+html {
+  font-family: 'Roboto', Verdana, Arial, sans-serif;
+}
+/*Used in ALL  HTML pages main page titles*/
+app-header {
+  text-align: center;
+  font-weight: 400;
+}
+
+/*List Styling*/
+ul {
+  border: 1px dotted red;
+}
+
+body {
+  font-family: 'Roboto', "Helvetica Neue", sans-serif;
+}
+/*For centering the H1 Title Element*/
+#payroll-header {
+  text-align: center;
+}
+/*Drop Down Menu CSS*/
+drop-down-menu {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*Return Button Styling for ALL  HTML return pages.*/
+#return-home {
+  color: #4F3674;
+  text-decoration: none;
+}
+return-home:hover {
+  background-color: #D6A800;
+  color: #4F3674;
+}
+return-home:visited {
+  color: #3C275A;
+}
+
+/*Styling pulled from main page for header banner and return button colors*/
+h1, h2, h3, h4 {
+  background-color: #3C275A;
+  color: white;
+  border: solid 1px #D6A800;
+  padding: 10px;
+}
+a {
+  color: #453674;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #D6A800;
+  color: #4F3674;
+}
+a:visited {
+  color: #3C275A;
+}
+
+
