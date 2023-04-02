@@ -1,0 +1,29 @@
+/*
+    Title: taplin-temperature.css
+    Author: Danielle Taplin
+    Date: 3/31/2023
+    Description: CSS styling for my temperature conversion webpage
+*/
+html {
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  letter-spacing: .5px;
+}
+#temperature-header {
+  background-color: white;
+  border-color: white;
+  color: black;
+  font-weight:400;
+  margin-left: 55px;
+  font-size: 40px;
+}
+a {
+  float: left;
+}
+#container {
+  width: 600px;
+}
+
+#convert {
+  text-align: center;
+  font-size: 30px;
+}

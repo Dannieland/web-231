@@ -1,0 +1,44 @@
+  <!--
+    Title: taplin-favorites.html
+    Author: Danielle Taplin
+    Date: 31 March 2023
+    Description: HTML page showing off my favorites at the click of a button
+  -->
+<!DOCTYPE html>
+<html lang="en">
+  <!--Start of favorites html-->
+  <head>
+  <meta charset="UTF-8">
+  <title>WEB 231: Enterprise JavaScript I</title>
+  <!--CSS Google Font for Roboto&Oswald-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <!--Link for favorites.css and global.css-->
+  <link href="taplin-favorites.css" rel="stylesheet">
+  <link href="../../global.css" rel="stylesheet">
+</head>
+<body>
+  <!--Div containing the entire My Favorites panel with all buttons included-->
+  <div id="container">
+<h1 class id="favorites-header">Welcome to the Favorites App!</h1>
+<div class="card">
+  <h2 class id="myfavorites">My Favorites</h2>
+  <!--Start of buttons containing favorite items-->
+  <ul>
+  <li><button id="btn1" onClick="favoriteTeam()" class="btn btn-primary full-width" type="button">Favorite Sports Team</button></li>
+
+  <li><button id="btn2" onClick="favoriteBook()" class="btn btn-primary full-width" type="button">Favorite Book</button></li>
+
+  <li><button id="btn3" onClick="favoriteAuthor()" class="btn btn-primary full-width" type="button">Favorite Author</button></li>
+
+  <li><button id="btn4" onClick="favoriteLanguage()" class="btn btn-primary full-width" type="button">Favorite Programming Language</button></li>
+    </ul>
+    </div>
+  </div>
+  <!--Return button linked at the bottom of the page-->
+<a href="../../index.html">Return</a>
+  <!--JavaScript page linked below-->
+<script src="taplin-favorites.js"></script>
+</body>
+</html>

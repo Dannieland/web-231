@@ -1,0 +1,66 @@
+<!--
+  ===================================
+  Title: taplin-temperature.html
+  Author: Danielle Taplin
+  Date: 3/31/2023
+  Description: HTML document for assignment 3.3, temperature conversion
+  ===================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!--google fonts for Oswald as well as stylesheet temperature.css and global.css-->
+        <meta charset="UTF-8">
+        <title>WEB 231: Enterprise JavaScript I</title>
+        <link rel="stylesheet" type="text/css" href="taplin-temperature.css">
+        <link rel="stylesheet" type="text/css" href="../../global.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <br>
+        <header>
+            <h1 id="temperature-header">Welcome to the Temperature Conversion App!</h1>
+        </header>
+  <!--Beginning of first container where a number will be input-->
+
+          <div id="container">
+            <div id="form-example">
+              <div class="card">
+                <div class="card-title">Fahrenheit to Celsius Converter</div>
+  <!-- The card contents consisting of input and button to convert the temperature-->
+                <div class="card-content">
+                  <div class="form">
+                    <div class="form-field">
+  <!-- A label and an input for fahrenheit value-->
+                      <label for="fahVal">Fahrenheit value:</label>
+                      <input type="text" class="input" id="fahVal" name="fahVal">
+                    </div>
+                    <div class="form-field">
+  <!-- A button with the onclick event calling the calcCelsius() function-->
+                      <button type="button" onclick="calcCelsius()" class="btn btn-primary full-width">Convert Temperature</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+  <!--Form containing conversion results-->
+    <div id="form-results-example">
+      <div class="card">
+        <div class="card-title">Conversion Results</div>
+        <div class="card-content">
+          <div id="convert"></div>
+        </div>
+      </div>
+
+      <!--Return home button html code-->
+      <a class="return-home" href="../../index.html">Return</a>
+    </div>
+
+  </div>
+
+  <!-- taplin-temperature.js linked here so external scripts work-->
+  <script src="taplin-temperature.js"></script>
+        </body>
+  </html>
