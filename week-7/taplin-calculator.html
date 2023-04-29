@@ -1,0 +1,84 @@
+<!--
+  ===================================
+  Title: taplin-calculator.html
+  Author: Danielle Taplin
+  Date: 4/26/2023
+  Description: HTML document for assignment 7.2, calculator app
+  ===================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!--google fonts for Oswald as well as stylesheet taplin-calculator.css and global.css-->
+        <meta charset="UTF-8">
+        <title>WEB 231: Enterprise JavaScript I</title>
+        <link rel="stylesheet" type="text/css" href="taplin-calculator.css">
+        <link rel="stylesheet" type="text/css" href="../../web-231/global.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <br>
+  <!--Beginning of first container where drop down list options are set-->
+ 
+  <div class="main" id="container">
+    <h1 class="app-header">Welcome to the Calculator App!</h1>
+
+    <!--Container for the multiplication function-->
+    <div class="calc-container">
+      <div class="card" id="card-1">
+        <p class="card-title">Multiply Form:</p>
+
+        <!--Display an input for each number being multiplied-->
+        <div class="card-content">
+          <input type="text" id="num1"><br>
+          <input type="text" id="num2"><br>
+
+          <!--Display the button to multiply the numbers-->
+          <button class="btn btn-primary" onclick="displayMultiplyResults()">Multiply</button>
+        </div>
+      </div>
+
+      <!--Card showing the results-->
+      <div class="card" id="results-1">
+        <h1 class="card-title">Results</h1>
+
+        <!--Display the multiplication results-->
+        <p id="multi-results"></p>
+      </div>
+    </div>
+
+    <!--Container for the division function-->
+    <div class="calc-container">
+      <div class="card" id="card-2">
+        <p class="card-title">Divide Form:</p>
+
+        <!--Display an input for each number being divided-->
+        <div class="card-content">
+          <input type="text" id="num3"><br>
+          <input type="text" id="num4"><br>
+
+          <!--Display the button to divide the numbers-->
+          <button class="btn btn-primary" onclick="displayDivideResults()">Divide</button>
+        </div>
+      </div>
+
+      <!--Card showing the results-->
+      <div class="card" id="results-2">
+        <h1 class="card-title">Results</h1>
+
+        <!--Display the division results-->
+        <p id="div-results"></p>
+    </div>
+
+
+      <!--Return home button html code-->
+      <a class="return-home" href="../index.html">Return</a>
+    </div>
+
+  </div>
+
+  <!-- taplin-calculator.js linked here so external scripts work-->
+  <script src="taplin-calculator.js"></script>
+        </body>
+  </html>

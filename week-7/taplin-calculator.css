@@ -1,0 +1,67 @@
+/*
+    Title: taplin-calculator.css
+    Author: Danielle Taplin
+    Date: 4/26/2023
+    Description: CSS styling for my calculator app
+*/
+/*full html styling*/
+html {
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  letter-spacing: .5px;
+}
+/*header styling*/
+bookstore-header {
+  background-color: white;
+  border-color: white;
+  color: black;
+  font-weight:400;
+  margin-left: 140px;
+  font-size: 40px;
+}
+
+/*floating the RETURN button to the left*/
+a {
+  float: left;
+}
+/*setting width of container*/
+#container {
+  width: 600px;
+}
+
+/*center a card and its content*/
+.card{
+  margin:auto;
+  text-align: center;
+}
+
+/*set the card width to 100%*/
+#card-1, #card-2{
+  width: 100%;
+}
+
+/*styling for a reusable calculator container*/
+.calc-container{
+  display: grid;
+  width: 800px;
+  margin: 3% auto 0;
+  column-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*styling for results containers*/
+#results-1, #results-2{
+  width: 100%;
+  margin-top: 0;
+}
+
+#multi-results, #div-results{
+  font-size: 28px;
+  text-align: center;
+}
+
+/*styling for text inputs*/
+input{
+  height: 24px;
+  width: 45%;
+  margin-bottom: 15px;
+}
