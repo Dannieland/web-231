@@ -1,0 +1,42 @@
+/*
+    Title: taplin-in-n-out-books.css
+    Author: Danielle Taplin
+    Date: 5/04/2023
+    Description: CSS styling for my in n out books app
+*/
+/*full html styling*/
+html {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    letter-spacing: .5px;
+  }
+  /*header styling*/
+  bookstore-header {
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-weight:400;
+    margin-left: 140px;
+    font-size: 40px;
+  }
+  /*floating the RETURN button to the left*/
+  a {
+    float: left;
+  }
+  /*setting width of container*/
+  #container {
+    width: 600px;
+  }
+/*setting up the h3 and tr colors and font look*/
+h3 {
+  font-weight: lighter;
+}
+
+tr {
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+}
+h1 {
+  margin-left: 200px;
+  font-weight: lighter;
+}

@@ -1,0 +1,63 @@
+<!--
+  ===================================
+  Title: taplin-in-n-out-books.html
+  Author: Danielle Taplin
+  Date: 5/04/2023
+  Description: HTML document for assignment 8.2, in n out books
+  ===================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!--google fonts for Oswald as well as stylesheets-->
+        <meta charset="UTF-8">
+        <title>WEB 231: Enterprise JavaScript I</title>
+        <link rel="stylesheet" type="text/css" href="taplin-in-n-out-books.css">
+        <link rel="stylesheet" type="text/css" href="../../web-231/global.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <br>
+  <!--beginning container where drop down list options are set-->
+ 
+  <div class="main" id="container">
+    <!--main header-->
+    <h1 class="app-header">Welcome to In-N-Out-Books</h1>
+
+    <!--card displaying my favorites-->
+    <div class="card">
+      <p class="card-title">My Favorites</p>
+
+      <!--drop down options for users to select their favorite book, author, or default-->
+      <div class="card-content">
+          <p><label>Choose a listing:&nbsp;</label>
+            <select id="choices">
+              <option value="none">--Select--</option>
+              <option value="books">Top 3 Favorite Books</option>
+              <option value="authors">Top 3 Favorite Authors</option>
+            </select>
+          </p>
+
+          <!--button to display the current listing selected-->
+          <button class="btn btn-primary" onclick="display()">Display Listing</button>
+      </div>
+    </div>
+
+    <!--card that displays showing results-->
+    <div class="card">
+      <h1 class="card-title">Results</h1>
+
+      <!--area for results to actually display-->
+      <p id="results"></p>
+    </div>
+
+
+      <!--return home button html code-->
+      <a class="return-home" href="../index.html">Return</a>
+    </div>
+
+  <!-- taplin-in-n-out-books.js linked here so external scripts work-->
+  <script src="taplin-in-n-out-books.js"></script>
+        </body>
+  </html>
