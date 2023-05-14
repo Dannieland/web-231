@@ -1,0 +1,75 @@
+/*
+    Title: taplin-dino-app.css
+    Author: Danielle Taplin
+    Date: 5/11/2023
+    Description: CSS styling for my dino app
+*/
+/*full html styling*/
+html {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    letter-spacing: .5px;
+  }
+  
+  /*floating the RETURN button to the left*/
+  a {
+    float: left;
+  }
+  /*setting width of container*/
+  #container {
+    width: 600px;
+  }
+
+/*body and head edits*/
+body {
+    text-align: center; 
+    max-width: 50%;
+    margin: auto;
+}
+h1 {
+    font-weight: lighter;
+}
+h3 {
+    font-weight: lighter;
+    background: none;
+    color: #3C275A;
+    text-align: left;
+    border: none;
+}
+
+h2 {
+    background: none;
+    color:#3C275A;
+    border: none;
+    padding:0px;
+    font-weight: lighter;
+}
+/*submit button styling*/
+.btn-primary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+/*form styling*/
+input { float: left; 
+    width: 50px;
+}
+label { margin: 0px 0px 0px 10px; 
+    float: left; 
+}
+form {
+    margin: 20px;
+}
+.dino-results {
+    font-size: 24px;
+}
+#dino-results {
+    font-weight: lighter;
+}

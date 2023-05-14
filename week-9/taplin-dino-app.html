@@ -1,0 +1,66 @@
+<!--
+  ===================================
+  Title: taplin-dino-app.html
+  Author: Danielle Taplin
+  Date: 5/11/2023
+  Description: HTML document for assignment 9.2, dino app
+  ===================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!--google fonts for Oswald as well as stylesheets-->
+        <meta charset="UTF-8">
+        <title>WEB 231: Enterprise JavaScript I</title>
+        <link rel="stylesheet" type="text/css" href="taplin-dino-app.css">
+        <link rel="stylesheet" type="text/css" href="../../web-231/global.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <br>
+  <!--beginning container where drop down list options are set-->
+ 
+  <div class="main" id="container">
+    <!--main header-->
+    <h1 class="app-header">Welcome to the Dino App!</h1>
+
+    <!--card displaying different dinosaurs-->
+    <div class="card">
+      <p class="card-title">Dino Form</p>
+      <form>
+        <fieldset>
+            <!--options for different dinosaurs noises, radio buttons-->
+      <legend>Select an Option</legend><br>
+      <input type="radio" id="roar" name="selection">
+      <label for="roar">How does a Gigantosaurus roar?</label><br><br>
+      <input type="radio" id="growl" name="selection">
+      <label for="roar">How does a Tyrannosaurus growl?</label><br><br>
+      <input type="radio" id="awk" name="selection">
+      <label for="awk">How does a Velociraptor awk?</label><br><br>
+    </fieldset>
+  </form>
+  <div class="btn">
+    <button class="btn-primary" id="submit">Submit</button>
+  </div>
+</div>
+</div>
+     <!--return home button html code-->
+     <a class="return-home" href="../index.html">Return</a>
+<!--card housing dinosaur results-->
+<br>
+<div class="card">
+<div class="card-content">
+<div class="card-title"><h2>Results</h2></div>
+<div class="dino-results">
+  <span id="dino-results"></span>
+  <br>
+  <br>
+  <br>
+</div>
+</div>
+</div>
+  <!-- taplin-dino-app.js linked here so external scripts work-->
+  <script src="taplin-dino-app.js"></script>
+        </body>
+  </html>
